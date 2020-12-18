@@ -63,7 +63,7 @@ then
 git clone https://github.com/KINGTEBE-404/Smsnew
 cd Smsnew
 ls
-python2 smsnew.py
+python2 run.py
 fi
 #batas
 if [ $pill = 6 ]
@@ -79,3 +79,4 @@ then
 exit
 fi
 #batas
+echo "Terima kasih telah menggunakan Tools Saya" 
