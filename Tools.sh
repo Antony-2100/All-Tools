@@ -12,20 +12,20 @@ clear
 
 
 echo "──────────────── Info ──────────────────"
-echo '\033[33;1m' "Author : Bayu Putra Tama"
-echo '\033[37;1m' "Facebook : Bayu Putra Tama"
-echo '\033[32;1m' "WhatsApp : +6289606019836"
+echo -e '\033[33;1m' "Author : Bayu Putra Tama"
+echo -e '\033[37;1m' "Facebook : Bayu Putra Tama"
+echo -e '\033[32;1m' "WhatsApp : +6289606019836"
 echo "────────────────────────────────────────"
 echo
-echo '\033[36;1m' "       [Menu]"
+echo -e '\033[36;1m' "       [Menu]"
 echo
-echo '\033[33;1m' "[1] DARKFB SENSEI"
-echo '\033[32;1m' "[2] CRACK FACEBOOK ALL COUNTRY RIZKY4"
-echo '\033[35;1m' "[3] BRUTAL SPAMMER"
-echo '\033[37;1m' "[4] TOOLS INSTALL TOMBOL TERMUX"
-echo '\033[34;1m' "[5] SPAM SMS"
-echo '\033[33;1m' "[6] INSTALL ALL PACKAGE"
-echo '\033[37;1m' "[7] EXIT"
+echo -e '\033[33;1m' "[1] DARKFB SENSEI"
+echo -e '\033[32;1m' "[2] CRACK FACEBOOK ALL COUNTRY RIZKY4"
+echo -e '\033[35;1m' "[3] BRUTAL SPAMMER"
+echo -e '\033[37;1m' "[4] TOOLS INSTALL TOMBOL TERMUX"
+echo -e '\033[34;1m' "[5] SPAM SMS"
+echo -e '\033[33;1m' "[6] INSTALL ALL PACKAGE"
+echo -e '\033[37;1m' "[7] EXIT"
 read -p "Pilih :  " pill
 if [ $pill = 1 ]
 then
