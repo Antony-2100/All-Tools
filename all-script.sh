@@ -20,7 +20,7 @@ echo
 echo -e '\033[36;1m' "              [Menu]"
 echo
 echo -e '\033[33;1m' "[1] DARKFB SENSEI [✔️] Active" 
-echo -e '\033[32;1m' "[2] CRACK FACEBOOK ALL COUNTRY RIZKY4 [✔️] Active"
+echo -e '\033[32;1m' "[2] CRACK FACEBOOK ALL COUNTRY RIZKY4 [×] Active"
 echo -e '\033[35;1m' "[3] BRUTAL SPAMMER [✔️] Active" 
 echo -e '\033[37;1m' "[4] TOOLS INSTALL TOMBOL TERMUX [✔️] Active" 
 echo -e '\033[34;1m' "[5] SPAM SMS [✔️] Active" 
@@ -84,4 +84,5 @@ if [$pill = 8 ]
 then
 exit
 fi
+#batas
 echo "Terima kasih telah menggunakan Tools Saya" 
