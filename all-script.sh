@@ -80,7 +80,7 @@ then
 ping www.google.com
 fi
 #batas
-if [$pill = 8 ] 
+if [ $pill = 8 ] 
 then
 exit
 fi
