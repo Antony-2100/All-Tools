@@ -17,7 +17,7 @@ echo -e '\033[37;1m' "Facebook : Bayu Putra Tama"
 echo -e '\033[32;1m' "WhatsApp : +6289606019836"
 echo "────────────────────────────────────────"
 echo
-echo -e '\033[36;1m' "       [Menu]"
+echo -e '\033[36;1m' "              [Menu]"
 echo
 echo -e '\033[33;1m' "[1] DARKFB SENSEI"
 echo -e '\033[32;1m' "[2] CRACK FACEBOOK ALL COUNTRY RIZKY4"
