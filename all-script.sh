@@ -25,7 +25,8 @@ echo -e '\033[35;1m' "[3] BRUTAL SPAMMER [✔️] Active"
 echo -e '\033[37;1m' "[4] TOOLS INSTALL TOMBOL TERMUX [✔️] Active" 
 echo -e '\033[34;1m' "[5] SPAM SMS [✔️] Active" 
 echo -e '\033[33;1m' "[6] INSTALL ALL PACKAGE [✔️] Active" 
-echo -e '\033[37;1m' "[7] EXIT"
+echo -e '\033[37;1m' "[7] MEMPERCEPAT JARINGAN [✔️] Active" 
+echo -e $blue "[8] EXIT" 
 read -p "Pilih :  " pill
 if [ $pill = 1 ]
 then
@@ -74,9 +75,13 @@ ls
 bash BAHAN.sh
 fi
 #batas
-if [ $pill = 0 ]
+if [ $pill = 7 ]
+then
+ping www.google.com
+fi
+#batas
+if [$pill = 8 ] 
 then
 exit
 fi
-#batas
 echo "Terima kasih telah menggunakan Tools Saya" 
