@@ -26,7 +26,8 @@ echo -e '\033[37;1m' "[4] TOOLS INSTALL TOMBOL TERMUX [✔️] Active"
 echo -e '\033[34;1m' "[5] SPAM SMS [✔️] Active" 
 echo -e '\033[33;1m' "[6] INSTALL ALL PACKAGE [✔️] Active" 
 echo -e '\033[37;1m' "[7] MEMPERCEPAT JARINGAN [✔️] Active" 
-echo -e $blue "[8] EXIT" 
+echo -e '\033[33;1m' "[8] REPORT FACEBOOK [✔️]  Active" 
+echo -e $blue'\033[33;1m' "[9] EXIT" 
 read -p "Pilih :  " pill
 if [ $pill = 1 ]
 then
@@ -82,7 +83,13 @@ fi
 #batas
 if [ $pill = 8 ] 
 then
-exit
+git clone https://github.com/IlayTamvan/Report
+cd Report
+unzip.Report.zip
 fi
 #batas
+if [ $pill =9] 
+then 
+exit 
+fi
 echo "Terima kasih telah menggunakan Tools Saya" 
