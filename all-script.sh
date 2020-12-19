@@ -12,7 +12,7 @@ clear
 
 
 echo "──────────────── Info ──────────────────"
-echo -e '\033[33;1m' "Author : Bayu Putra Tama"
+echo -e '\033[33;1m' "Author   : Bayu Putra Tama"
 echo -e '\033[37;1m' "Facebook : Bayu Putra Tama"
 echo -e '\033[32;1m' "WhatsApp : +6289606019836"
 echo "────────────────────────────────────────"
