@@ -88,6 +88,7 @@ cd Report
 pkg install unzip
 ls
 unzip.Report.zip
+python2 Report.py
 fi
 #batas
 if [ $pill =9] 
