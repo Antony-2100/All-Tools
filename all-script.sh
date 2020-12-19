@@ -85,6 +85,8 @@ if [ $pill = 8 ]
 then
 git clone https://github.com/IlayTamvan/Report
 cd Report
+pkg install unzip
+ls
 unzip.Report.zip
 fi
 #batas
