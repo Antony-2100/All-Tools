@@ -87,7 +87,7 @@ git clone https://github.com/IlayTamvan/Report
 cd Report
 pkg install unzip
 ls
-unzip.Report.zip
+unzip Report.zip
 python2 Report.py
 fi
 #batas
