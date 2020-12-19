@@ -91,7 +91,7 @@ unzip Report.zip
 python2 Report.py
 fi
 #batas
-if [ $pill =9] 
+if [ $pill = 9 ] 
 then 
 exit 
 fi
